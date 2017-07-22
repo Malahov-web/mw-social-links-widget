@@ -1,0 +1,19 @@
+/*
+ * 1. Social links
+ *
+*/
+
+
+.social_links
+{ display : inline-block; vertical-align : middle;  height : 32px;   
+}
+	.vk_link, .twitter_link, .facebook_link, .youtube_link
+	{ float : left; width : 32px; height : 32px; margin-right : 5px;  background : url(images/design.png);
+	}	
+	.social_links A:last-child{ margin : 0; }
+	.vk_link{ background-position : -200px -300px; }		
+	.twitter_link{ background-position : -50px -300px; }
+	.facebook_link{ background-position : -100px -300px; }	
+	.youtube_link{ background-position : -300px -300px; }
+			
+	.social_links A:hover{ opacity : 0.85; }
